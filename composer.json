@@ -1,0 +1,20 @@
+{
+    "name": "mgazelle/ideal",
+    "description": "Ideal Package",
+    "authors": [
+        {
+            "name": "mgazelle",
+            "email": "mgaz59@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mgazelle\\Ideal": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
