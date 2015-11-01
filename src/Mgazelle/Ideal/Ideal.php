@@ -51,7 +51,8 @@ class Ideal extends Transaction
 
         //Bad response
         if (  $aResponse[0] != '000000 OK' ) {
-            throw new \Exception( $aResponse[0] );
+            //throw new \Exception( $aResponse[0] );
+            return false;
         }
 
         return true;
